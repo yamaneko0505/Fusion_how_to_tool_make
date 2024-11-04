@@ -1,0 +1,2 @@
+# Fusion_how_to_tool_make
+FusionCAMを用いて使用する工具を新規作成する方法を説明した手順書です。
