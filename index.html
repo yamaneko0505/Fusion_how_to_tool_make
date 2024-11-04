@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>工具の新規作成手順</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" />
+  <link rel="stylesheet" href="main.css" />
+  <style>
+    section {
+      padding-top: 40px;
+      /* 余白の調整、必要に応じて変更してください */
+    }
+  </style>
+</head>
+
+<body> <!-- ここから本文開始 -->
+
+
+  <!--<header class="fixed-header">
+    サイコロ５軸切削の手順書
+    <nav>
+      <ul>
+        <li><a href="#first-sec">事前準備</a></li>
+        <li><a href="#set-sec">設定の作成手順</a></li>
+        <li><a href="#tool-sec">工具の新規作成方法</a></li>
+        <li><a href="#pas01-sec">ツールパスの作成　面切削</a></li>
+        <li><a href="#pas02-sec">ツールパスの作成　粗削り</a></li>
+        <li><a href="#pas03-sec">ツールパスの作成　45°斜め切削</a></li>
+      </ul>
+    </nav>
+  </header>-->
+
+  <!--
+  <div class="header-space"></div>
+  <div class="image-container">
+    <img src="title.jpg" alt="かっけー枠">
+    <div class="overlay-text">yamaneko's Portfolio</div>
+  </div>
+  <div class="header-space"></div>
+-->
+
+  <p>
+
+  <h1>FusionCAMの使い方<br>工具の新規作成手順</h1>
+
+  <h2>工具の新規作成方法</h2>
+  使用する工具（ドリルやエンドミルのこと。刃物とも言う）を新規作成する方法を説明します。<br>
+  まず工具ライブラリを開いてください。
+  <img src="09.png" alt="09" width="100%" /><br><br><br>
+
+  工具ライブラリが開いたら、ウィンドウ左側から「ローカル」の下にある「Library」
+  をクリック。この場所は自分で作成した工具が入る場所となります。ここで＋のマーク
+  のボタンを押し、工具の新規作成を行います。
+  <img src="10.png" alt="10" width="100%" /><br><br><br>
+
+  まずこの画面が開くので、追加したい工具の種類を選択します。
+  <img src="11.png" alt="11" width="100%" /><br><br><br>
+
+  「全般」タブでは詳細の所に工具の大まかな説明、直径や種類、どの加工機に
+  使うものなのかなどを入力します。それ以外は特筆すべきことが無ければ何も入力
+  しなくてよいと思います。
+  <img src="12.png" alt="12" width="100%" /><br><br><br>
+
+  「刃物」タブでは、実際の工具をノギスなどで測定して、各寸法値を入力します。
+  <img src="13.png" alt="13" width="100%" /><br><br><br>
+
+  「ホルダー」タブではその工具が取り付いているホルダーを選択します。
+  ウィンドウ左のホルダーの一覧から選んで、青いボタンでホルダーを選択します。
+  <img src="14.png" alt="14" width="100%" /><br><br><br>
+
+  また、このホルダーも新規作成することができます。工具の種類を選択する画面
+  でホルダーを選択し、実際のホルダーの寸法をノギスなどで測定しながらこの
+  「ホルダー形状」タブで上から順番に高さと上側の直径と下側の直径を指定した
+  円錐・円柱を重ねていくようにホルダーの形状を作っていきます。<br>
+  Fusionライブラリに使いたいホルダーがなかったときは新規作成してみてください。
+  <img src="15.png" alt="15" width="100%" /><br><br><br>
+
+  話を刃物の作成に戻して、「切削データ」タブではその工具の回転数や
+  切削送り速度などを入力する。切込み送り速度は切削送り速度より遅く、
+  ランプ送り速度はよくわからなかったら切込み送り速度と同じにするとよいと思います。
+  <img src="16.png" alt="16" width="100%" /><br><br><br>
+
+  「ポストプロセッサ」タブでは上から４つの箇所にその工具を加工機に
+  搭載するときの工具番号を入力してください。<br>
+  これで工具の作成は終了。工具が複数本ある場合は同じことをまた別の工具で繰り返してください。
+  <img src="17.png" alt="17" width="100%" /><br><br><br>
+
+  著者：伊與田 大斗<br>
+  （大阪公立大学工業高等専門学校　5年メカトロニクスコース　里中研究室　2025年卒業生）
+
+
+  
+  </p>
+
+</body> <!-- ここまで本文終了 -->
+
+</html>
